@@ -24,7 +24,7 @@ export default function Result({result}) {
                     </div>
                 </div>
             </div>}
-            {result === -1 && <div className="flex flex-col items-center">
+            {result === -1 && <div className="flex-col items-center">
                 <h1 className="text-xl font-bold text-zinc-700">Result will be displayed here</h1>
             </div>}
         </>
